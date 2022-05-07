@@ -24,7 +24,7 @@ public class DB {
         try {
             Properties props = new Properties();
             props.put("user", user);
-            props.put("password", "root");
+            props.put("password", "password here");
             props.put("useUnicode", "true");
             props.put("useServerPrepStmts", "false"); // use client-side prepared statement
             props.put("characterEncoding", "UTF-8"); // ensure charset is utf8 here
